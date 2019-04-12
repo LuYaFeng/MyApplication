@@ -6,7 +6,7 @@ package com.mangxing.myapplication.bean
  *  代码人生
 Article */
 data class Article(
-    val `data`: Data?,
+    val `data`: Data1?,
     val errorCode: Int?,
     val errorMsg: String?
 )

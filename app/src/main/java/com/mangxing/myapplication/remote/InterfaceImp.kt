@@ -2,6 +2,7 @@ package com.mangxing.myapplication.remote
 
 import android.os.Handler
 import android.os.Message
+import android.util.Log
 import com.mangxing.myapplication.base.Contants
 import okhttp3.*
 import java.io.IOException
@@ -61,9 +62,8 @@ class InterfaceImp(private val handler: Handler) : Interator {
 
             override fun onResponse(call: Call, response: Response) {
                 //成功的方法
-
                 val result = response.body()!!.string()
-
+                Log.d("数据--", result)
                 val message = Message()
                 message.what = acceptCode
                 message.obj = result

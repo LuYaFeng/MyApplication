@@ -1,6 +1,7 @@
 package com.mangxing.myapplication
 
-
+import android.content.Intent
+import android.net.Uri
 
 
 /**
@@ -21,4 +22,7 @@ class textT {
 
 
     }*/
+
+
+
 }

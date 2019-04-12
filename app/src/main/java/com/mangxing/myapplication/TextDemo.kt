@@ -1,7 +1,6 @@
 package com.mangxing.myapplication
 
 import android.util.Log
-import com.mangxing.myapplication.bean.Book
 
 /**
  *  @ 作者 CODE_LYF
@@ -13,7 +12,7 @@ class TextDemo {
 //@符号的自定义标记
 
     fun get() {
-        val book: Book? = null
+       /* val book: Book? = null
         book?.component1()
 
         val list: ArrayList<Int>? = null
@@ -26,7 +25,7 @@ class TextDemo {
                 if (it == 0) return@forEach //相当于在forEach函数中continue,实际上是从匿名函数返回
                 if (it == 2) return@outer //相当于在forEach函数中使用break,实际上是跳转到outer之外
             }
-        }
+        }*/
 
         /*
         遍历map

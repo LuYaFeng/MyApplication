@@ -58,14 +58,14 @@ class ListActivity : AppCompatActivity() {
         setContentView(activity_list)
         interfaceImp = InterfaceImp(handler)
 
-         var iI= InterfaceImp(handler)
+
 
         adapter = HometAdapter(this, ll)
 
 
         val recyclerViewLayoutManager = LinearLayoutManager(this)
         recyclerViewLayoutManager.orientation = LinearLayoutManager.VERTICAL
-        recyclerView.setLayoutManager(recyclerViewLayoutManager)
+        recyclerView.layoutManager = recyclerViewLayoutManager
 
         //recyclerView.
         recyclerView.adapter = adapter
