@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".ui.MainActivity">
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/etPhone"
@@ -18,7 +18,7 @@
         android:paddingBottom="10dp"
         android:singleLine="true"
         android:maxLines="1"
-        android:inputType="number"
+        android:inputType="phone"
         android:layout_height="wrap_content"/>
 
     <View
